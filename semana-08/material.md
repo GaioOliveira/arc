@@ -1,4 +1,4 @@
-# 🛠️ Laboratório de Administração de Redes - Semana 08  
+# 🛠️ Administração de Redes - Scripts de Shell - Semana 08  
 **Professor:** Gaio  
 
 Nesta aula, aprenderemos como os scripts deixam de ser uma lista estática de comandos para se tornarem ferramentas capazes de tomar decisões complexas baseadas em condições reais do sistema.
@@ -43,7 +43,7 @@ Redirecionar é decidir o destino da informação. No Linux, existem três fluxo
 
 ---
 
-## Aula 3: O Comando IF (Domínio Completo)
+## Aula 3: O Comando if 
 
 O comando `if` avalia se uma condição é verdadeira ou falsa.
 
