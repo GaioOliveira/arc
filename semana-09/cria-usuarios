@@ -1,0 +1,54 @@
+#!/bin/bash
+clear
+# Verificando se é o superusuário 
+if [ $EUID -ne 0 ] 
+then
+ echo "Você deve ser superusuário!"
+ exit 1
+fi
+
+echo "-------------------------------------"
+echo "   GERENCIADOR DE CONTAS DE USUÁRIO  "
+echo "-------------------------------------"	
+
+read -p "Digite o prefixo para os nomes dos novos usuários: " PREFIXO
+# Uso de laço de repetição for
+for i in {1..10}
+do
+	NOVO_USUARIO=$PREFIXO$i 	
+	if [ -z $NOVO_USUARIO ]
+	then
+		echo "Você não informou o nome do novo usuário"
+		exit 1
+	fi
+
+	id $NOVO_USUARIO &> /dev/null
+
+	if [ $? -eq 0 ]
+	then
+		echo "Já existe esse usuário!"
+		exit 1
+	fi 
+
+	useradd -m -s /bin/bash $NOVO_USUARIO
+
+	SENHA_PADRAO="Mude@123"
+
+	if [ $? -eq 0 ]
+	then
+		echo "$NOVO_USUARIO:$SENHA_PADRAO" | chpasswd
+
+		if [ $? -eq 0 ]
+		then
+			chage -d 0 $NOVO_USUARIO
+			echo "Sucesso: Conta '$NOVO_USUARIO' criada corretamente."
+			echo "Senha Temporária: $SENHA_PADRAO"
+			echo "AVISO: O usuário será forçado a trocar a senha no 1º login."
+		
+		else
+			echo "Não foi possível definir a senha padrão"
+		fi
+	else
+		echo "Não foi possível criar a conta de usuário"
+	fi
+done
