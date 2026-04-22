@@ -99,5 +99,8 @@ echo "--- Processamento finalizado! ---"
 * **Eficiência:** O uso do `grep` direto no arquivo CSV evita que o script processe linhas desnecessárias, economizando recursos.
 * **Segurança:** A combinação de `chpasswd` e `chage -d 0` garante que o administrador defina uma senha inicial, mas o usuário seja o único a saber a senha final.
 
-### Exercício
-Crie o arquivo `rh_lista.csv` com  mais pessoas, departamentos e cargos que o exemplo dado. Tente modificar o script para que ele também adicione o usuário a um grupo secundário (se necessário, crie o grupo antes de executar o script).
+### Exercícios de Revisão
+
+1. Crie o arquivo `rh_lista.csv` com  mais pessoas, departamentos e cargos que o exemplo dado. Tente modificar o script para que ele também adicione o usuário a um grupo secundário (se necessário, crie o grupo antes de executar o script).
+2. A exibição de todos os nomes de usuários criados no Linux fica no arquivo "/etc/passwd". Mas existem outras informações nesse arquivo. Crie um script para "extrair" apenas as o nome dos usuários que estão na primeira coluna desse arquivo cujos campos são separados pelo símbolo ":" (dois-pontos). 
+   
