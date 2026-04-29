@@ -33,3 +33,5 @@ Descreva os componentes fundamentais que compõem um sistema de gerência basead
 
 ### 4. Ecossistema de Softwares
 O SNMP fornece os dados, mas precisamos de ferramentas para interpretá-los e visualizá-los. Pesquise e liste **pelo menos 3 softwares profissionais
+
+[Tutor SNMP (IA) criado pelo professor] (https://gemini.google.com/gem/1C-63oEIAM_P7qc_H7XHPujpq0siTpyh_?usp=sharing)
