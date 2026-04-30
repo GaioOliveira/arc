@@ -5,10 +5,12 @@
 
 ---
 
-## 🎯 Objetivo da Atividade
-Investigar a estrutura, a evolução e o funcionamento do protocolo **SNMP** (*Simple Network Management Protocol*). O foco é compreender como ele permite a comunicação e o gerenciamento entre dispositivos heterogêneos (servidores, roteadores, switches, impressoras, etc.) em uma infraestrutura de rede.
+## 🎯 Objetivos da Atividade
+* Reconhecer o papel do protocolo **SNMP** (*Simple Network Management Protocol*) na administração de redes de computadores.
 
-Nesta etapa, não teremos aula expositiva tradicional. Vocês atuarão como administradores de redes em busca de documentação técnica para fundamentar nossa próxima prática laboratorial.
+* Compreender como o SNMP permite a comunicação e o gerenciamento entre dispositivos heterogêneos (servidores, roteadores, switches, impressoras, etc.) em uma infraestrutura de rede.
+
+Nesta etapa, não teremos aula expositiva tradicional. Vocês atuarão como administradores de redes em busca de documentação técnica para fundamentar nossa próxima prática de laboratório.
 
 ---
 
