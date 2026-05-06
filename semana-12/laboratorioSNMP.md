@@ -30,7 +30,7 @@ Abra o seu Packet Tracer e monte a seguinte estrutura inicial:
 
 **Configuração de IP sugerida:**
 - **Servidor NMS:** `Defina um IP`
-- **Interface Gigabit0/0 do Roteador:** `Use o gateway da mesma rede do servidor`
+- **Interface Gigabit0/1 do Roteador:** `Use o gateway da mesma rede do servidor`
 
 ---
 
