@@ -80,4 +80,4 @@ Toda a documentação deve ser versionada ou compilada para entrega até o dia *
 | **TOTAL** | | **10,0** |
 
 ---
-*IFSP - Campus de Redes | Material de Apoio Prático para ARC.*
+*IFSP - Campus São João da Boa Vista | Material de Apoio Prático para ARC.*
