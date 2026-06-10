@@ -27,7 +27,7 @@ Para o Zabbix funcionar, precisamos de 3 engrenagens rodando juntas de forma har
 2. **Zabbix Server:** O "cérebro" do sistema. É ele quem processa as regras de monitoramento, calcula os alertas (Triggers), gerencia as checagens e recebe os dados dos ativos de rede.
 3. **Zabbix Web Interface:** O painel visual construído em PHP rodando sobre um servidor Nginx. É a interface que acessamos pelo navegador para gerenciar todo o ambiente.
 
-[Imagem da Arquitetura do Zabbix 5.0](arquiteturaZabbix5.0.jpg)
+[Imagem da Arquitetura do Zabbix 5.0](arquiteturaZabbix5.jpg)
 
 ---
 
