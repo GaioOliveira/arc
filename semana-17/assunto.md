@@ -1,13 +1,13 @@
 ## Introdução aos Sistemas de Monitoramento de Redes 
 
-# 🐳 Laboratório de Administração de Redes: Zabbix via Containers Docker
+# Laboratório de Administração de Redes: Zabbix via Containers Docker
 **Professor:** Gaio B. Oliveira  
 **Semana:** 17  
 **Contexto:** Infraestrutura Ágil e Sistemas de Gerência de Redes (NMS)
 
 ---
 
-## 📅 Apresentação e Introdução ao NMS
+## Apresentação e Introdução ao NMS
 
 Fala, pessoal!
 
@@ -19,7 +19,7 @@ Para tornar nossa infraestrutura ágil, moderna e fácil de replicar, não vamos
 
 ---
 
-## 🏗️ O Ecossistema e Arquitetura do Zabbix
+## O Ecossistema e Arquitetura do Zabbix
 
 Para o Zabbix funcionar, precisamos de 3 engrenagens rodando juntas de forma harmoniosa. No nosso laboratório, cada uma dessas engrenagens será um container isolado:
 
@@ -31,9 +31,9 @@ Para o Zabbix funcionar, precisamos de 3 engrenagens rodando juntas de forma har
 
 ---
 
-## 🛠️ Passo 1: Preparando o Terreno (Instalação do Docker)
+## Passo 1: Preparando o Terreno (Instalação do Docker para PC fora da escola)
 
-Antes de baixarmos os containers, precisamos garantir que o motor do Docker e o plugin do Compose estão instalados e atualizados na VM Linux (Ubuntu Server ou Desktop). 
+Antes de baixarmos os containers, precisamos garantir que o motor do Docker e o plugin do Compose estão instalados e atualizados no seu Linux (Ubuntu ou outro). 
 
 No terminal da sua VM, execute os seguintes comandos:
 
